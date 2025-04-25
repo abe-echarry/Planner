@@ -1,0 +1,83 @@
+/*
+ * Project: Planner
+ * Class: Organizer Class
+ * Author: Abigail Allgood
+ * Date: April 25, 2025
+ * Class: Representing a task organizer for the Planner.
+ */
+
+package planner,organizer;
+
+
+public class Organizer {
+
+    // Attributes
+    private String taskName;
+    private String dueDate;
+    private String priority;
+
+    /**
+     * Default constructor.
+     * Initializes an empty task organizer.
+     */
+    public Organizer() {
+        taskName = "";
+        dueDate = "";
+        priority = "";
+    }
+
+    /**
+     * Gets the name of the task.
+     * 
+     * @return The task name.
+     */
+    public String getTaskName() {
+        return taskName;
+    }
+
+    /**
+     * Sets the name of the task.
+     * 
+     * @param taskName The new task name.
+     */
+    public void setTaskName(String taskName) {
+        this.taskName = taskName;
+    }
+
+    /**
+     * Gets the due date of the task.
+     * 
+     * @return The due date.
+     */
+    public String getDueDate() {
+        return dueDate;
+    }
+
+    /**
+     * Sets the due date of the task.
+     * 
+     * @param dueDate The new due date.
+     */
+    public void setDueDate(String dueDate) {
+        this.dueDate = dueDate;
+    }
+
+    /**
+     * Gets the priority of the task.
+     * 
+     * @return The priority.
+     */
+    public String getPriority() {
+        return priority;
+    }
+
+    /**
+     * Sets the priority of the task.
+     * 
+     * @param priority The new priority.
+     */
+    public void setPriority(String priority) {
+        this.priority = priority;
+    }
+}
+
