@@ -1,4 +1,21 @@
-// UI Class
-// Planner
-// Alek Lewis
-// 4.25.25
+// Project: Planner
+// Class: UI Class
+// Author: Alek Lewis
+// Date: 4.25.25
+// Discription: The UI class is the user interface display and interactions for the Planner
+
+Package planner,ui;
+
+Public class UI {
+
+public String View;
+pubic boolean DarkMode;
+public boolean lightMode;
+
+
+//constructor
+public UI() {
+  this.View = "Weekly";
+  this.darkMode = true;
+  this.lightMode = false;
+
