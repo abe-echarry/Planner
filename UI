@@ -9,7 +9,7 @@ Package planner,ui;
 Public class UI {
 
 public String View;
-pubic boolean DarkMode;
+public boolean DarkMode;
 public boolean lightMode;
 
 
