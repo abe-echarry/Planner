@@ -8,10 +8,19 @@ public class Task {
 
 // Constructor
 
+public Task (String.name, String.description, String.dueDate)
 
 //Getter
 
+getName
+getDescription
+getDueDate
+isCompleted
 
 //Setters
 
+SetName
+setDescription
+getDueDate
+setCompleted
 
