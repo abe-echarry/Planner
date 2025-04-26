@@ -2,8 +2,9 @@
 Schedule tasks and appointments 
 
 **Contributors**
-Abigail Allgood
-Alek Lewis-Rodriguez
-Sherriya Paw
-Seth Payne 
-Abe Echarry
+Abigail Allgood: Organizer Class 
+Alek Lewis-Rodriguez: UI Class
+Sherriya Paw: Repeater Class
+Seth Payne: Planner Class
+Abe Echarry: Task Class
+
