@@ -1,4 +1,8 @@
-//Task Class
+
+// Planner Project
+// Abe Echarry
+// 04/25/2025
+// This class handles individual task information
 
 public class Task {
     private String name;
