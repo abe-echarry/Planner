@@ -18,4 +18,32 @@ public UI() {
   this.View = "Weekly";
   this.darkMode = true;
   this.lightMode = false;
+}
+public String getView() {
+        return view;
+}
+public boolean isDarkMode() {
+    return darkMode;
+}
 
+public boolean isLightMode() {
+    return lightMode;
+}
+public void setView(String view) {
+    if (view.equalsIgnoreCase("Daily") || view.equalsIgnoreCase("Weekly") || view.equalsIgnoreCase("Monthly")) {
+        this.view = view; {
+    else {
+        System.out.println("Choose Daily, Weekly, or Monthly.");
+    }
+public void enableDarkMode() {
+      this.darkMode = true;
+      this.lightMode = false;
+      System.out.println("Dark mode enabled.");
+}
+
+public void enableLightMode() {
+  this.lightMode = true;
+    this.darkMode = false;
+    System.out.println("Light mode enabled.");
+   }
+}
