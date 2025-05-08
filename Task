@@ -1,4 +1,3 @@
-
 // Planner Project
 // Abe Echarry
 // 04/25/2025
@@ -10,21 +9,48 @@ public class Task {
     private String dueDate;
     private boolean isCompleted;
 
-// Constructor
+    // Constructor
+    public Task(String name, String description, String dueDate) {
+        this.name = name;
+        this.description = description;
+        this.dueDate = dueDate;
+        this.isCompleted = false;}
 
-public Task (String.name, String.description, String.dueDate)
+    // Getters
+    public String getName() {
+        return name;}
 
-//Getter
+    public String getDescription() {
+        return description;}
 
-getName
-getDescription
-getDueDate
-isCompleted
+    public String getDueDate() {
+        return dueDate;}
 
-//Setters
+    public boolean isCompleted() {
+        return isCompleted;}
 
-SetName
-setDescription
-getDueDate
-setCompleted
+    // Setters
+    public void setName(String name) {
+        this.name = name;}
+
+    public void setDescription(String description) {
+        this.description = description;}
+
+    public void setDueDate(String dueDate) {
+        this.dueDate = dueDate;}
+
+    public void setCompleted(boolean isCompleted) {
+        this.isCompleted = isCompleted;}
+
+    public void markComplete() {
+        this.isCompleted = true;}
+
+    // ToString for display
+    @Override
+    public String toString() {
+        return "Task Name: " + name +
+               "\nDescription: " + description +
+               "\nDue Date: " + dueDate +
+               "\nCompleted: " + (isCompleted ? "Yes" : "No");}
+}
 
